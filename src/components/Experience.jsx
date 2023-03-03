@@ -7,6 +7,7 @@ const Experience = () => {
     const gltf = useLoader(GLTFLoader, '/models/chair.gltf')
     return (
         <>
+        
             <PresentationControls
                 speed={1.5}
                 global
